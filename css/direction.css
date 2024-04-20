@@ -1,0 +1,60 @@
+
+
+/* DIRECTION PAGE ⚡*/
+
+#directions {
+    background-color: #111;
+    height: 100%;
+  }
+
+#directions h1 {
+    font-family: "Anek Kannada", sans-serif;
+    color: #fffa;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 2.3em;
+}
+
+#directions .box4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 3em;
+  }
+
+#directions .box4 .icons {
+    display: flex;
+    justify-content:center;
+    gap: 2em;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+#directions .box4 i {
+    font-size: 50px;
+    background-color: #222;
+    border: 1px solid #ffffff42;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* .video-lesson1 {
+    background-color: #222;
+    width: 50%;
+    border-radius: 20px;
+    height: 60%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+} */
+
+.video-lesson1 iframe {
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 3em;
+}

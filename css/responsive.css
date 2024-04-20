@@ -1,0 +1,278 @@
+/* Responsive viewpord for Mobile Phone And Tablet 🍵📲🤳 */
+
+@media screen and (max-width: 700px) {
+  navbar {
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .burger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #111a;
+    border: 1px solid #ffffff42;
+    padding: 15px 10px;
+    border-radius: 10px;
+    z-index: 9;
+    cursor: pointer;
+  }
+
+  .burger div {
+    width: 30px;
+    height: 3px;
+    border-radius: 50px;
+    background-color: #fffa;
+    transition: 0.3s;
+  }
+
+  navbar .logo p {
+    padding-right: 15px;
+    font-size: 10px;
+  }
+
+  navbar .logo {
+    padding: 0;
+    width: 170px;
+    z-index: 9;
+  }
+
+  .links {
+    position: absolute;
+    top: -100vh;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #262627d2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    border-radius: 0;
+    transition: 0.3s ease;
+  }
+
+  navbar .links a {
+    font-size: 25px;
+  }
+
+  navbar .links a:hover {
+    background: none;
+    color: #fff;
+  }
+
+  .links-active {
+    top: 0;
+  }
+
+  .toggle .line-1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .toggle .line-2 {
+    opacity: 0;
+  }
+
+  .toggle .line-3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+  /* HOME PAGE ⚡*/
+
+  section {
+    background-position: center;
+  }
+
+  section .title {
+    gap: 0em;
+  }
+
+  section .title h1 {
+    width: 90%;
+  }
+
+  section .title p {
+    font-size: 15px;
+    width: 80%;
+  }
+
+  section .title button {
+    margin-top: 2em;
+  }
+
+  .title .social-media {
+    gap: 2em;
+    margin-bottom: 1em;
+  }
+
+  .title .social-media i {
+    font-size: 25px;
+  }
+
+  .title .social-media:hover i {
+    padding: 0;
+    background: none;
+  }
+
+  /* LINE PAGE ✍️*/
+
+  .line-box {
+    height: 250px;
+  }
+
+  .line-box h1 {
+    font-weight: 300;
+    font-size: 18px;
+    transform: translateY(4em) translateX(35px);
+  }
+
+  .line3 {
+    height: 150px;
+    top: 100px;
+  }
+
+  .line2 {
+    top: 100px;
+    height: 90px;
+  }
+
+  .line1 {
+    height: 200px;
+    width: 1.5px;
+    transform: translateX(1px) translateY(-83px);
+    z-index: -100;
+  }
+
+  /* ABOUT PAGE ✨*/
+
+  .anime-box {
+    flex-direction: column;
+    height: 900px;
+  }
+
+  .anime {
+    height: 30%;
+    width: 30%;
+    margin-top: 3em;
+  }
+
+  @keyframes anim2 {
+    0% {
+      transform: translate(0px);
+      transform: scale(3);
+    }
+    20% {
+      transform: translateY(-400px);
+    }
+    50% {
+      transform: translateY(-200px);
+      transform: scale(2);
+    }
+    70% {
+      transform: translateY(-500px);
+    }
+    100% {
+      transform: translateY(0px);
+      transform: scale(3);
+    }
+  }
+
+  @keyframes anim {
+    0% {
+      transform: translate(0px);
+      transform: scale(1.5);
+    }
+    20% {
+      transform: translateY(300px);
+    }
+    50% {
+      transform: translateY(200px);
+      transform: scale(1.5);
+    }
+    70% {
+      transform: translateY(-300px);
+    }
+    100% {
+      transform: translateY(0px);
+      transform: scale(1.5);
+    }
+  }
+
+  #about {
+    height: 1130px;
+  }
+
+  #about .box2 {
+    text-align: center;
+    height: 280px;
+    gap: 1em;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* DIRECTION PAGE ⚡*/
+
+  #directions {
+    height: 850px;
+  }
+
+  #directions .box4 h1 {
+    font-size: 25px;
+  }
+
+  #directions .box4 .icons {
+    width: 100%;
+    padding: 15px;
+  }
+
+  #directions .box4 .icons i {
+    font-size: 35px;
+  }
+
+  .video-lesson1 iframe {
+    width: 100%;
+    margin-bottom: 2em;
+    height: 200px;
+  }
+
+  /* CONTACT PAGE ⚡*/
+
+  #contact h1 {
+    width: 80%;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #contact .bg-video2 {
+    position: absolute;
+    object-fit: cover;
+    height: 640px;
+    width: 100%;
+    z-index: -99;
+  }
+
+  #contact .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 400px;
+  }
+
+  .contact form input {
+    width: 80%;
+  }
+
+  .contact form p {
+    top: 0em;
+  }
+
+  .contact form .btn {
+    margin-top: 1em;
+  }
+}

@@ -1,0 +1,71 @@
+
+/* ABOUT PAGE */
+  
+  #about {
+    height: 650px;
+    font-family: "Anek Kannada", sans-serif;
+    background-color: #222;
+  }
+  
+  #about .box2 {
+    text-align: center;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3em;
+  }
+  
+  #about .box2 h1 {
+    color: #fffa;
+    font-family: "Anek Kannada", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+  }
+  
+  #about .box2 p {
+    color: #fffa;
+    width: 80%;
+    font-family: "Anek Kannada", sans-serif;
+    font-weight: 300;
+  }
+  
+  .cards {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .cards .card {
+    margin-top: 1em;
+    width: 230px;
+    background-color: #111;
+    padding: 20px;
+    border: 1px solid #ffffff3c;
+    border-radius: 20px;
+  }
+  
+  .cards .card h1 {
+    color: #fff;
+    font-weight: 100;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 15px;
+    padding: 5px;
+  }
+  
+  .cards .card p {
+    font-size: 12px;
+    padding: 5px;
+    color: #fffa;
+    font-weight: 200;
+    font-family: "Bai Jamjuree", sans-serif;
+  }
+  
+  .cards .card img {
+    width: 100px;
+    border-radius: 20px;
+  }
